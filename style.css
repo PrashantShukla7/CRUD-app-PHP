@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+
+}
+
+.form form label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.title,
+.desc {
+    width: 400px;
+    height: 40px;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+.desc {
+    height: 100px;
+    display: block;
+}
+
+.btn2 {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: lightseagreen;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins' , sans-serif;
+}
+
+table.datatable{
+    width: 800px;
+
+}
+
+.table thead th{
+    text-align: left;
+}
+
+.table tbody td button{
+    background-color: lightskyblue;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
